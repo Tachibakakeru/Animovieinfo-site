@@ -29,7 +29,7 @@ python scripts/preview.py
 ## 圖像、地圖與授權
 
 - 電影海報、劇照、作品名稱與商標之相關權利歸各權利人。電影詳情列有電影資料、海報及劇照的出處。公開版從來源網站載入電影圖片，未在本儲存庫散布圖片副本；再次使用請查閱原權利人的授權。影像能否顯示取決於來源站。
-- 首頁海岸列車插畫為本專案使用生成式 AI 製作的主視覺。
+- 首頁飛機穿梭雲層的插畫為本專案使用生成式 AI 製作的主視覺。
 - 地圖元件 Leaflet 1.9.4 使用 BSD-2-Clause 授權，著作權及完整條款見 [Leaflet LICENSE](site/vendor/leaflet/LICENSE.txt)。
 - 地圖資料 © OpenStreetMap contributors，以 ODbL 授權。底圖由 OpenStreetMap 提供，地圖內保留署名。[著作權與授權](https://www.openstreetmap.org/copyright) · [圖磚使用政策](https://operations.osmfoundation.org/policies/tiles/)
 - 本網站為獨立整理的電影資訊服務；場次異動及購票以影城最新公告為準。

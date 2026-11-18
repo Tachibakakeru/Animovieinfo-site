@@ -174,7 +174,7 @@ select:focus-visible {
   z-index: -1;
 }
 .hero:before {
-  background: url("./art/coastal-train.webp") center 57% / cover no-repeat;
+  background: url("./art/cloud-flight.webp") 56% center / cover no-repeat;
 }
 .hero:after {
   background:
@@ -206,22 +206,15 @@ select:focus-visible {
   height: 2px;
   background: #4686d1;
 }
-.heroTag {
-  color: #d2f4ff;
-}
-.heroTag i {
-  background: #7eddec;
-}
 .hero h1 {
   font-size: clamp(38px, 4.6vw, 71px);
   letter-spacing: 0.035em;
   line-height: 1.17;
-  margin: 16px 0 12px;
+  margin: 0 0 12px;
   font-weight: 850;
 }
 .hero h1 span {
   color: #a4e8ff;
-  display: block;
 }
 .intro {
   color: #e2edf6;
@@ -504,6 +497,9 @@ select {
   }
   .hero:after {
     background: linear-gradient(90deg, #09274ed9, #10395836);
+  }
+  .hero:before {
+    background-position: 65% center;
   }
   .tools {
     flex-wrap: wrap;
