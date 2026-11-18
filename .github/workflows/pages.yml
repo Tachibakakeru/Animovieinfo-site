@@ -9,8 +9,8 @@ on:
         type: boolean
         default: true
   schedule:
-    # 01:37, 07:37, 13:37 and 19:37 in Taiwan
-    - cron: '37 5,11,17,23 * * *'
+    # Every three hours at minute 17, including 14:17, 17:17 and 20:17 in Taiwan.
+    - cron: '17 */3 * * *'
 permissions:
   contents: read
 concurrency:

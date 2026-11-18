@@ -7,7 +7,7 @@ import {
   countdown,
   fullMotion,
 } from "./shared.js";
-import { setupMap } from "./map.js?v=map-theme-format";
+import { setupMap } from "./map.js?v=schedules-update";
 
 let db,
   mapView,

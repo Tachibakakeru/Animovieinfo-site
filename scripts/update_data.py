@@ -369,7 +369,7 @@ def atmovies_chains(master):
     for alias, canonical in aliases.items():
         if canonical in films:
             films[alias] = films[canonical]
-    tomorrow = (date.fromisoformat(TODAY) + timedelta(days=1)).isoformat()
+    latest = (date.fromisoformat(TODAY) + timedelta(days=14)).isoformat()
     jobs = []
     for name, code in choices:
         place = branches.get(branch_key(name))
@@ -381,24 +381,30 @@ def atmovies_chains(master):
     def fetch_branch(job):
         place, base = job
         current = soup(base)
-        upcoming = base + tomorrow.replace("-", "") + "/"
-        pages = [(base, current)]
-        if current.find("a",href=urlsplit(upcoming).path):
-            pages.append((upcoming,soup(upcoming)))
-        return place, base, pages
+        path = urlsplit(base).path
+        dates = {}
+        for link in current.select("a[href]"):
+            match = re.fullmatch(re.escape(path) + r"(\d{4})(\d\d)(\d\d)/", link["href"])
+            if match:
+                day = "-".join(match.groups())
+                if TODAY < day <= latest:
+                    dates[day] = urljoin(base, link["href"])
+        pages = [(TODAY, base, current)]
+        pages.extend((day, url, soup(url)) for day, url in sorted(dates.items()))
+        return place, pages
     checked = set()
     with ThreadPoolExecutor(max_workers=2) as pool:
-        for place, base, pages in pool.map(fetch_branch,jobs):
+        for place, pages in pool.map(fetch_branch,jobs):
             cid = "ref-" + str(place["id"])
             brand = "新光影城" if "新光" in place["location_name"] else "威秀影城"
             official = "https://www.skcinemas.com/sessions" if brand == "新光影城" else "https://www.vscinemas.com.tw/ShowTimes/"
-            for source, page in pages:
+            for expected_date, source, page in pages:
                 heading = next((h.get_text(strip=True) for h in page.select("h3")
                                 if re.match(r"^\d{4}/\d{2}/\d{2}",h.get_text(strip=True))), "")
                 if not heading:
                     continue
                 day = heading[:10].replace("/", "-")
-                if day != (TODAY if source == base else tomorrow):
+                if day != expected_date:
                     continue
                 checked.add(brand)
                 for table in page.select("ul#theaterShowtimeTable"):
@@ -421,7 +427,7 @@ def atmovies_chains(master):
         raise ValueError(f"Missing dated AtMovies schedules for { {'新光影城', '威秀影城'} - checked }")
 
 
-def shin_kong_labels():
+def shin_kong_sessions():
     branches = {
         "新光影城台北獅子林": 1001, "新光影城台南西門": 1002, "新光影城台中中港": 1003,
         "新光影城桃園青埔": 1004, "新光影城台北天母": 1005,
@@ -454,7 +460,7 @@ def shin_kong_labels():
                             yield title.get_text(strip=True), cid, day, clock, label, url
 
 
-def miranew_labels():
+def miranew_sessions():
     url = "https://www.miranewcinemas.com/Booking/Timetable"
     try:
         page = request(url).decode("utf-8")
@@ -502,19 +508,49 @@ def vieshow_labels():
         if cinemas[cid]["brand"] == "威秀影城" and int(cid.removeprefix("ref-")) in branches:
             url = f"https://www.vscinemas.com.tw/film/detail.aspx?id={code}"
             yield title, cid, row["date"], row["time"], f"數位 {language}", url
+    # Manually checked public listings for Nov 20–24, tied to each branch's booking code.
+    # shortcut: replace the dated excerpt when Vieshow offers an authorized schedule feed.
+    title = "名偵探柯南 第30號殺人事件"
+    url = "https://www.vscinemas.com.tw/VsWeb/film/detail.aspx?id=9075"
+    conan = {
+        "ref-3": (
+            "10:50 14:50 17:25 19:20", "10:00 11:50 13:40 19:20",
+            "10:50 14:50 17:25 19:20", "12:30 16:55 19:05 21:40", "12:30 16:55 19:05 21:40",
+        ),
+        "ref-24": (
+            "09:35 12:05 14:45 16:35 18:40", "09:35 12:05 14:45 16:35 18:45",
+            "09:35 12:05 15:40 17:30 20:25 22:25", "09:35 11:25 13:15 15:05 17:00 19:00",
+            "09:35 13:15 15:05 17:00 19:00",
+        ),
+        "ref-25": ("10:30 12:20 14:10 16:00 17:50 19:40 21:30 23:20",) * 5,
+    }
+    for cid, programme in conan.items():
+        if cid not in cinemas:
+            continue
+        for index, clocks in enumerate(programme, 20):
+            day = f"2026-11-{index}"
+            if day >= TODAY:
+                for clock in clocks.split():
+                    yield title, cid, day, clock, "數位 日語版", url
 
 
 def enrich_screenings():
     film_ids = {key(m["title"]): mid for mid, m in movies.items()}
     labels = {}
-    for source in (shin_kong_labels, miranew_labels, vieshow_labels):
+    for source in (shin_kong_sessions, miranew_sessions, vieshow_labels):
         for title, cid, day, clock, label, url in source():
             slug = key(title)
             mid = film_ids.get(aliases.get(slug, slug))
             if mid:
                 labels.setdefault((mid, cid, day, clock), set()).add((label, url))
 
-    enriched = 0
+    enriched = added = 0
+    current_slots = {slot[:4] for slot in screenings}
+    for (mid, cid, day, clock), matches in labels.items():
+        if (mid, cid, day, clock) not in current_slots:
+            for label, url in sorted(matches):
+                session(movies[mid], cid, day, clock, label, url)
+                added += 1
     for slot, row in list(screenings.items()):
         matches = labels.get(slot[:4], ())
         if row["version"] == "版本未標示" and len(matches) == 1:
@@ -523,7 +559,7 @@ def enrich_screenings():
             session(movies[row["movieId"]], row["cinemaId"], row["date"], row["time"],
                     label, url, row["auditorium"])
             enriched += 1
-    print(f"{enriched} sessions matched official version or hall labels")
+    print(f"{added} new public sessions and {enriched} verified schedule labels")
 
 
 def main():

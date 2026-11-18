@@ -517,6 +517,9 @@ legend {
   margin: 0;
   border-top: 1px solid var(--line);
 }
+.mapNote a {
+  color: var(--link);
+}
 .leaflet-container {
   font-family: inherit;
 }
