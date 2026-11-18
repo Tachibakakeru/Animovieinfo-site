@@ -290,19 +290,76 @@ def ambassador():
     return master
 
 
-def vieshow_via_atmovies(master):
-    # The official chain catalogue uses different names for these three branches.
+def showtimes_cinemas(master):
+    host = "https://www.showtimes.com.tw"
+    feed = json.loads(request("https://capi.showtimes.com.tw/4/app/bootstrap"))["payload"]
+    programs = {}
+    known = {key(m["title"]): m for m in movies.values()}
+    for item in feed["programs"]:
+        # Language and special-event variants carry separate programme IDs.
+        title = re.sub(r"\s*(?:[（(](?:國語|日語|英語)版[）)]|粉絲特典場|特別場)$", "", item["name"]).strip()
+        canonical = aliases.get(key(title), key(title))
+        m = known.get(canonical)
+        if not m and "animation" not in (item.get("genres") or []):
+            continue
+        if not m:
+            release = (item.get("availableAt") or "")[:10]
+            if not DATE.fullmatch(release):
+                continue
+            url = f"{host}/programs/{item['id']}/"
+            poster = (item.get("coverImagePortrait") or {}).get("url")
+            m = movie(title, release, poster, url)
+            m.update(originalTitle=item.get("nameAlternative"), runtime=(item.get("duration") or 0) // 60,
+                     posterCreditUrl=url, director="、".join((item.get("meta") or {}).get("directors") or []))
+            known[canonical] = m
+        programs[item["id"]] = m
+
+    locations = {str(p["source_location_code"]): p for p in master["locations"]
+                 if p["active"] and "秀泰" in p["location_name"] and p.get("latitude")}
+    bundles = feed["eventsForCorporations"]
+    if not locations.keys() & bundles.keys() or not programs:
+        raise ValueError("Cannot match ShowTimes locations or programmes")
+    for code, bundle in bundles.items():
+        place = locations.get(code)
+        if not place:
+            continue
+        cid = "ref-" + str(place["id"])
+        url = f"{host}/cinemas/{code}/"
+        city = place.get("city") or ("花蓮縣" if place["address"].startswith("花蓮市") else "縣市未標示")
+        rooms = {v["id"]: str(v.get("room") or "") for v in bundle["venues"]}
+        for event in bundle["events"]:
+            m = programs.get(event["programId"])
+            if not m or event["status"] != "active" or str(event["corporationId"]) != code:
+                continue
+            start = datetime.fromisoformat(event["startedAt"].replace("Z", "+00:00"))
+            if start.tzinfo is None:
+                raise ValueError("ShowTimes event has no timezone")
+            start = start.astimezone(TZ)
+            if start.date().isoformat() < TODAY:
+                continue
+            cinemas[cid] = dict(id=cid, name=place["location_name"], brand="秀泰影城",
+                                city=city.replace("台", "臺"), address=place["address"],
+                                lat=place["latitude"], lng=place["longitude"], sourceUrl=url)
+            session(m, cid, start.date().isoformat(), start.strftime("%H:%M"),
+                    (event.get("meta") or {}).get("format"), url, rooms.get(event["venueId"], ""))
+
+
+def atmovies_chains(master):
+    # The directory and the location catalogue use different branch names.
     alternate = {"台中老虎城威秀": "MUVIE CINEMAS 台中TIGER CITY",
                  "林口三井OUTLET威秀影城": "林口MITSUI OUTLET PARK威秀影城",
-                 "MUVIE CINEMAS台北松仁威秀": "MUVIE CINEMAS 台北松仁"}
+                 "MUVIE CINEMAS台北松仁威秀": "MUVIE CINEMAS 台北松仁",
+                 "台北新光影城": "新光影城台北獅子林", "台北天母新光影城": "新光影城台北天母",
+                 "桃園新光影城": "新光影城桃園青埔", "台中新光影城": "新光影城台中中港",
+                 "台南新光影城": "新光影城台南西門"}
     areas = {"02": "02", "033": "03", "035": "35", "037": "37", "038": "38",
              "044": "04", "066": "06", "077": "07"}
     def branch_key(name):
         return key(alternate.get(name, name).removesuffix("影城"))
     branches = {branch_key(p["location_name"]):p for p in master["locations"]
-                if p["active"] and p["latitude"] and ("威秀" in p["location_name"] or "MUVIE" in p["location_name"])}
+                if p["active"] and p["latitude"] and any(t in p["location_name"] for t in ("威秀", "MUVIE", "新光"))}
     menu = request(AT).decode("utf-8")
-    choices = re.findall(r"""new Option\("([^"]*(?:威秀|MUVIE)[^"]*)"\);\s*NewOpt\[\d+\].value = '(\w+)'""", menu)
+    choices = re.findall(r"""new Option\("([^"]*(?:威秀|MUVIE|新光)[^"]*)"\);\s*NewOpt\[\d+\].value = '(\w+)'""", menu)
     # Taiwan release of this revival is independently confirmed in Vieshow's film detail.
     dawn = movie("來自深淵 深沉靈魂的黎明", "2026-11-13",
                  "https://www.unicornpopcorn.com.tw/ForVsWeb/upload/film/film_20261028024.jpg",
@@ -329,10 +386,12 @@ def vieshow_via_atmovies(master):
         if current.find("a",href=urlsplit(upcoming).path):
             pages.append((upcoming,soup(upcoming)))
         return place, base, pages
-    checked = 0
+    checked = set()
     with ThreadPoolExecutor(max_workers=2) as pool:
         for place, base, pages in pool.map(fetch_branch,jobs):
             cid = "ref-" + str(place["id"])
+            brand = "新光影城" if "新光" in place["location_name"] else "威秀影城"
+            official = "https://www.skcinemas.com/sessions" if brand == "新光影城" else "https://www.vscinemas.com.tw/ShowTimes/"
             for source, page in pages:
                 heading = next((h.get_text(strip=True) for h in page.select("h3")
                                 if re.match(r"^\d{4}/\d{2}/\d{2}",h.get_text(strip=True))), "")
@@ -341,15 +400,15 @@ def vieshow_via_atmovies(master):
                 day = heading[:10].replace("/", "-")
                 if day != (TODAY if source == base else tomorrow):
                     continue
-                checked += 1
+                checked.add(brand)
                 for table in page.select("ul#theaterShowtimeTable"):
                     title = table.select_one(".filmTitle a")
                     m = films.get(key(title.get_text(strip=True))) if title else None
                     if not m:
                         continue
                     cinemas[cid] = dict(id=cid, name=place["location_name"], city=place["city"].replace("台","臺"),
-                                        brand="威秀影城", address=place["address"], lat=place["latitude"], lng=place["longitude"],
-                                        sourceUrl="https://www.vscinemas.com.tw/ShowTimes/")
+                                        brand=brand, address=place["address"], lat=place["latitude"], lng=place["longitude"],
+                                        sourceUrl=official)
                     for times in table.select("li > ul"):
                         version = ""
                         for item in times.find_all("li", recursive=False):
@@ -358,8 +417,8 @@ def vieshow_via_atmovies(master):
                                 version = text
                             elif TIME.fullmatch(text) and text >= "06:00":
                                 session(m,cid,day,text,version,source)
-    if not checked:
-        raise ValueError("No AtMovies schedule carried the requested calendar date")
+    if checked != {"新光影城", "威秀影城"}:
+        raise ValueError(f"Missing dated AtMovies schedules for { {'新光影城', '威秀影城'} - checked }")
 
 
 def main():
@@ -367,7 +426,8 @@ def main():
     century()
     chin_chin()
     master = ambassador()
-    vieshow_via_atmovies(master)
+    showtimes_cinemas(master)
+    atmovies_chains(master)
     active = {s["movieId"] for s in screenings.values() if s["date"] >= TODAY}
     recent = {s["movieId"] for s in screenings.values()}
     selected = [m for m in movies.values() if m["releaseDate"] > TODAY or m["id"] in recent]
@@ -384,7 +444,7 @@ def main():
     assert selected and all(s["movieId"] in movies and s["cinemaId"] in cinemas for s in sessions)
     assert all(m["sourceUrl"] and m["releaseDate"] for m in selected)
     out = dict(updatedAt=datetime.now(TZ).isoformat(timespec="seconds"), referenceUpdatedAt=upstream_time,
-               sourceName="國賓影城、喜樂時代影城、親親影城、開眼電影網、動畫電影上映地圖", sourceUrl=BASE,
+               sourceName="國賓影城、喜樂時代影城、親親影城、秀泰影城、開眼電影網（新光、威秀及 MUVIE）、動畫電影上映地圖", sourceUrl=BASE,
                movies=selected, cinemas=[c for cid,c in cinemas.items() if cid in used], sessions=sessions)
     dest = SITE / "data.json"
     temp = dest.with_suffix(".json.tmp")

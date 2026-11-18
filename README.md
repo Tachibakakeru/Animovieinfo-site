@@ -8,8 +8,8 @@
 
 ## 資料與更新
 
-- 直接讀取 [國賓](https://www.ambassador.com.tw/)、[喜樂時代](https://ticket.centuryasia.com.tw/) 與 [親親影城](https://www.ccmovie.com.tw/) 的公開片目及場次。
-- 威秀及 MUVIE 的分店時刻取自 [開眼電影網](https://www.atmovies.com.tw/)。片單、場次及影城位置另參考 [動畫電影上映地圖](https://dandadany.github.io/anime_movie_screening/)。每筆場次附上可查閱的來源。
+- 直接讀取 [國賓](https://www.ambassador.com.tw/)、[喜樂時代](https://ticket.centuryasia.com.tw/)、[秀泰影城](https://www.showtimes.com.tw/programs/) 與 [親親影城](https://www.ccmovie.com.tw/) 的公開片目及場次。
+- 新光、威秀及 MUVIE 的分店時刻取自 [開眼電影網](https://www.atmovies.com.tw/)。片單、場次及影城位置另參考 [動畫電影上映地圖](https://dandadany.github.io/anime_movie_screening/)。每筆場次附上可查閱的來源。
 - GitHub Actions 排定台北時間 01:37、07:37、13:37、19:37 擷取及部署。實際執行可能延後。頁尾顯示目前資料的擷取時間，更新失敗時保留前次部署。院線各自公布新場次，只有可核對日期的場次會列入。
 
 ## 本機執行
