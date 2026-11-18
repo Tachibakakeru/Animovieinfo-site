@@ -421,6 +421,111 @@ def atmovies_chains(master):
         raise ValueError(f"Missing dated AtMovies schedules for { {'新光影城', '威秀影城'} - checked }")
 
 
+def shin_kong_labels():
+    branches = {
+        "新光影城台北獅子林": 1001, "新光影城台南西門": 1002, "新光影城台中中港": 1003,
+        "新光影城桃園青埔": 1004, "新光影城台北天母": 1005,
+    }
+    start = date.fromisoformat(TODAY)
+    days = {d.strftime("%m-%d"): d.isoformat()
+            for d in (start + timedelta(days=offset) for offset in range(15))}
+    for cid, cinema in cinemas.items():
+        code = branches.get(cinema["name"])
+        if not code:
+            continue
+        url = f"https://www.skcinemas.com/Sessions/Sessions?cinemaId={code}"
+        try:
+            page = soup(url)
+        except OSError as exc:
+            print(f"Shin Kong labels unavailable at {url}: {exc}", file=sys.stderr)
+            continue
+        for film in page.select(".pt-5.pb-3:has(button[data-sessionid])"):
+            title = film.select_one("h3")
+            if not title:
+                continue
+            for badge in film.select("h5 + .badge"):
+                label = badge.get_text(" ", strip=True)
+                day = days.get(badge.find_previous_sibling("h5").get_text(strip=True)[:5])
+                times = badge.parent.find_next_sibling("div")
+                if day and label and times:
+                    for button in times.select("button[data-sessionid]"):
+                        clock = button.get_text(strip=True)
+                        if TIME.fullmatch(clock) and clock >= "06:00":
+                            yield title.get_text(strip=True), cid, day, clock, label, url
+
+
+def miranew_labels():
+    url = "https://www.miranewcinemas.com/Booking/Timetable"
+    try:
+        page = request(url).decode("utf-8")
+        raw = re.search(r"var CinemaList = '(.*)';", page)
+        if not raw:
+            return
+        groups = json.loads(raw[1].replace(r'\"', '"').replace(r"\'", "'"))["Data"]["CinemaGroup"]
+    except (OSError, ValueError, KeyError) as exc:
+        print(f"Miranew labels unavailable: {exc}", file=sys.stderr)
+        return
+    branches = {key(c["name"]): cid for cid, c in cinemas.items() if c["brand"] == "美麗新影城"}
+    for cinema in groups:
+        cid = branches.get(key(cinema["CinemaCName"]))
+        if not cid:
+            continue
+        for film in cinema["MovieInfo"]:
+            title = re.sub(r"\((?:普|護|輔(?:12|15)級|限)\)$", "", film["MovieCName"]).strip()
+            for day in film["ShowDateList"]:
+                stamp = date.fromisoformat(day["ShowDateISO"][:10])
+                for group in day["ShowTimeList"]:
+                    label = group["MovieHallCht"]
+                    for show in group["SessionList"]:
+                        clock = show["ShowTime"]
+                        if label and TIME.fullmatch(clock):
+                            actual = stamp + timedelta(days=clock < "06:00")
+                            yield title, cid, actual.isoformat(), clock, label, url
+
+
+def vieshow_labels():
+    # The reviewed listings only cover these dates and branches with one advertised version.
+    confirmed = {
+        "名偵探柯南 第30號殺人事件": (9075, "日語版", {1, 3, 20, 21, 22, 23, 24, 25, 26, 27, 28, 30,
+                                                     31, 32, 34, 35, 36, 37, 38, 40, 41}),
+        "致遙不可及彼方的你": (9033, "日語版", {20, 21, 22, 23, 24, 25, 27, 28, 31, 32, 36, 38, 41}),
+        "歡迎來到朵莉之家": (9038, "國語版", {3, 21, 25, 26, 27, 31, 38, 41}),
+        "來自深淵 深沉靈魂的黎明": (9074, "日語版", {21, 24, 25, 26, 30, 31, 32, 38, 41}),
+    }
+    for row in screenings.values():
+        title = movies[row["movieId"]]["title"]
+        reviewed = confirmed.get(title)
+        if not reviewed or row["date"] not in ("2026-11-18", "2026-11-19"):
+            continue
+        code, language, branches = reviewed
+        cid = row["cinemaId"]
+        if cinemas[cid]["brand"] == "威秀影城" and int(cid.removeprefix("ref-")) in branches:
+            url = f"https://www.vscinemas.com.tw/film/detail.aspx?id={code}"
+            yield title, cid, row["date"], row["time"], f"數位 {language}", url
+
+
+def enrich_screenings():
+    film_ids = {key(m["title"]): mid for mid, m in movies.items()}
+    labels = {}
+    for source in (shin_kong_labels, miranew_labels, vieshow_labels):
+        for title, cid, day, clock, label, url in source():
+            slug = key(title)
+            mid = film_ids.get(aliases.get(slug, slug))
+            if mid:
+                labels.setdefault((mid, cid, day, clock), set()).add((label, url))
+
+    enriched = 0
+    for slot, row in list(screenings.items()):
+        matches = labels.get(slot[:4], ())
+        if row["version"] == "版本未標示" and len(matches) == 1:
+            label, url = next(iter(matches))
+            del screenings[slot]
+            session(movies[row["movieId"]], row["cinemaId"], row["date"], row["time"],
+                    label, url, row["auditorium"])
+            enriched += 1
+    print(f"{enriched} sessions matched official version or hall labels")
+
+
 def main():
     upstream_time = reference()
     century()
@@ -428,6 +533,7 @@ def main():
     master = ambassador()
     showtimes_cinemas(master)
     atmovies_chains(master)
+    enrich_screenings()
     active = {s["movieId"] for s in screenings.values() if s["date"] >= TODAY}
     recent = {s["movieId"] for s in screenings.values()}
     selected = [m for m in movies.values() if m["releaseDate"] > TODAY or m["id"] in recent]
@@ -444,7 +550,7 @@ def main():
     assert selected and all(s["movieId"] in movies and s["cinemaId"] in cinemas for s in sessions)
     assert all(m["sourceUrl"] and m["releaseDate"] for m in selected)
     out = dict(updatedAt=datetime.now(TZ).isoformat(timespec="seconds"), referenceUpdatedAt=upstream_time,
-               sourceName="國賓影城、喜樂時代影城、親親影城、秀泰影城、開眼電影網（新光、威秀及 MUVIE）、動畫電影上映地圖", sourceUrl=BASE,
+               sourceName="國賓影城、喜樂時代影城、親親影城、秀泰影城、新光影城、美麗新影城、威秀影城、開眼電影網（新光、威秀及 MUVIE）、動畫電影上映地圖", sourceUrl=BASE,
                movies=selected, cinemas=[c for cid,c in cinemas.items() if cid in used], sessions=sessions)
     dest = SITE / "data.json"
     temp = dest.with_suffix(".json.tmp")

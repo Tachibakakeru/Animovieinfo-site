@@ -8,6 +8,16 @@ import {
   fullMotion,
 } from "./shared.js";
 
+function projection(version = "") {
+  const label = version.normalize("NFKC").toUpperCase();
+  const system = label.match(
+    /IMAX|4DX|MX4D|LUXE|TITAN|DVA|SCREENX|INFINITY VISION|B\.O\.X|MUCROWN|GOLD CLASS|皇家廳|標準廳|沙發版|ATMOS/,
+  )?.[0];
+  const dimension = label.match(/(?<![\dA-Z])[23]D(?![\dA-Z])/)?.[0];
+  return [system, dimension].filter(Boolean).join(" ") ||
+    (label.includes("數位") ? "數位" : "規格未公布");
+}
+
 export function setupMap(db) {
   const theaters = new Map(db.cinemas.map((c) => [c.id, c]));
   const films = new Map(db.movies.map((m) => [m.id, m]));
@@ -30,9 +40,10 @@ export function setupMap(db) {
     visibleGroups = [],
     activeCinema = "";
   const pins = new Map();
-  const facets = { city: "縣市", version: "版本", brand: "品牌" };
+  const facets = { city: "縣市", version: "放映規格", brand: "品牌" };
+  const formats = new Map(db.sessions.map((s) => [s, projection(s.version)]));
   page.innerHTML =
-    '<div class="sectionHeading mapHeading"><div><p class="eyebrow"><i></i> SCREENING MAP</p><h1>電影場次地圖</h1></div><a class="mapLink" href="#films">返回電影總覽 ↗</a></div><div class="mapShell"><aside class="filterPane"><div class="paneHead"><h2>篩選場次</h2><button id="clear">重設</button></div><fieldset><legend>放映日期</legend><div id="dayBtns" class="chips"></div></fieldset><label class="field">電影<select id="pickFilm"></select></label><fieldset><legend>開始時間 <output id="fromValue">00:00 起</output></legend><input type="range" id="from" aria-label="場次開始時間" min="0" max="1439" step="1" value="0"><button class="liveToggle" id="liveTime" aria-pressed="false">從現在起</button></fieldset><fieldset><legend>快速時段</legend><div id="periods" class="chips"></div></fieldset><div id="facets"></div></aside><section class="theaters"><div class="paneHead"><h2>影城列表</h2><small id="matchSummary"></small></div><div id="results"></div></section><section class="mapBox" aria-label="影城地圖"><label class="mapSearch search"><span aria-hidden="true">⌕</span><input type="search" id="findCinema" aria-label="搜尋影城、品牌、縣市" placeholder="搜尋影城、品牌、縣市"></label><div id="tiles" aria-label="臺灣影城互動地圖"></div><button id="fit" title="顯示符合條件的所有影城">⌖ 全部影城</button><div class="mapNotice" hidden></div></section></div><p class="mapNote"><time id="mapClock"></time>　點選場次可查閱來源，最新售票資訊以影城公告為準。</p>';
+    '<div class="mapHeading"><h1>電影場次地圖</h1></div><div class="mapShell"><aside class="filterPane"><div class="paneHead"><h2>篩選場次</h2><button id="clear">重設</button></div><fieldset><legend>放映日期</legend><div id="dayBtns" class="chips"></div></fieldset><label class="field">電影<select id="pickFilm"></select></label><fieldset><legend>開始時間 <output id="fromValue">00:00 起</output></legend><input type="range" id="from" aria-label="場次開始時間" min="0" max="1439" step="1" value="0"><button class="liveToggle" id="liveTime" aria-pressed="false">從現在起</button></fieldset><fieldset><legend>快速時段</legend><div id="periods" class="chips"></div></fieldset><div id="facets"></div></aside><section class="theaters"><div class="paneHead"><h2>影城列表</h2><small id="matchSummary"></small></div><div id="results"></div></section><section class="mapBox" aria-label="影城地圖"><label class="mapSearch search"><span aria-hidden="true">⌕</span><input type="search" id="findCinema" aria-label="搜尋影城、品牌、縣市" placeholder="搜尋影城、品牌、縣市"></label><div id="tiles" aria-label="臺灣影城互動地圖"></div><button id="fit" title="顯示符合條件的所有影城">⌖ 全部影城</button><div class="mapNotice" hidden></div></section></div><p class="mapNote"><time id="mapClock"></time>　數位或特殊廳的 2D／3D 以影城公告為準。點選場次查看來源。</p>';
   const dates = () =>
     [
       ...new Set([
@@ -84,7 +95,7 @@ export function setupMap(db) {
       (key) =>
         key === ignore ||
         !state[key] ||
-        state[key] === (key === "version" ? s.version : c[key]),
+        state[key] === (key === "version" ? formats.get(s) : c[key]),
     );
   }
   function render(fit = true) {
@@ -158,7 +169,7 @@ export function setupMap(db) {
           .filter((s) => matches(s, key))
           .forEach((s) => {
             const val =
-              key === "version" ? s.version : theaters.get(s.cinemaId)[key];
+              key === "version" ? formats.get(s) : theaters.get(s.cinemaId)[key];
             counts.set(val, (counts.get(val) || 0) + 1);
           });
         if (state[key] && !counts.has(state[key])) counts.set(state[key], 0);
@@ -199,23 +210,27 @@ export function setupMap(db) {
             '</small></button><div class="times">' +
             rows
               .map(
-                (s) =>
-                  '<a class="showTime" href="' +
-                  safeUrl(s.sourceUrl) +
-                  '" target="_blank" rel="noopener" data-when="' +
-                  timeOf(s) +
-                  '" title="' +
-                  esc(
-                    films.get(s.movieId).title +
-                      " · " +
-                      s.version +
-                      " · 查閱場次來源",
-                  ) +
-                  '"><b>' +
-                  esc(s.time) +
-                  "</b><small>" +
-                  esc(state.movie ? s.version : films.get(s.movieId).title) +
-                  "</small></a>",
+                (s) => {
+                  const title = films.get(s.movieId).title;
+                  const format = formats.get(s);
+                  const version = s.version && s.version !== "版本未標示" ? s.version : "";
+                  const label = format === "規格未公布" && version
+                    ? format + " · " + version
+                    : version || format;
+                  return (
+                    '<a class="showTime" href="' +
+                    safeUrl(s.sourceUrl) +
+                    '" target="_blank" rel="noopener" data-when="' +
+                    timeOf(s) +
+                    '" title="' +
+                    esc(title + " · " + label + " · 查閱場次來源") +
+                    '"><b>' +
+                    esc(s.time) +
+                    "</b>" +
+                    (state.movie ? "" : '<small>' + esc(title) + "</small>") +
+                    '<small class="showFormat">' + esc(label) + "</small></a>"
+                  );
+                },
               )
               .join("") +
             "</div></article>",

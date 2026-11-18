@@ -7,7 +7,7 @@ import {
   countdown,
   fullMotion,
 } from "./shared.js";
-import { setupMap } from "./map.js";
+import { setupMap } from "./map.js?v=map-theme-format";
 
 let db,
   mapView,
@@ -238,6 +238,15 @@ motionChoice.onchange = () => {
   } catch {}
 };
 
+$("#themeToggle").onclick = () => {
+  const root = document.documentElement;
+  const theme = root.dataset.theme === "dark" ? "light" : "dark";
+  root.dataset.theme = theme;
+  try {
+    localStorage.setItem("animovie-theme", theme);
+  } catch {}
+};
+
 let routeId = 0,
   scrollId = 0;
 async function glideTo(top) {
@@ -304,6 +313,7 @@ async function route(initial = false) {
   }
   $("#films").hidden = mapping;
   $("#mapPage").hidden = !mapping;
+  document.body.classList.toggle("mapView", mapping);
   $("#filmsNav").classList.toggle("active", !mapping);
   $("#mapNav").classList.toggle("active", mapping);
   if (mapping) mapView?.open(id);

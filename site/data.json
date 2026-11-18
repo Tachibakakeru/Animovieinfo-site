@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-11-18T13:28:37+08:00",
+  "updatedAt": "2026-11-18T13:59:44+08:00",
   "referenceUpdatedAt": "2026-11-17T07:17:01+08:00",
-  "sourceName": "國賓影城、喜樂時代影城、親親影城、秀泰影城、開眼電影網（新光、威秀及 MUVIE）、動畫電影上映地圖",
+  "sourceName": "國賓影城、喜樂時代影城、親親影城、秀泰影城、新光影城、美麗新影城、威秀影城、開眼電影網（新光、威秀及 MUVIE）、動畫電影上映地圖",
   "sourceUrl": "https://dandadany.github.io/anime_movie_screening/",
   "movies": [
     {
@@ -1294,8 +1294,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "09:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1303,8 +1303,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "09:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1375,8 +1375,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "10:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1393,8 +1393,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "10:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -1456,8 +1456,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1465,8 +1465,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -1474,8 +1474,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1501,8 +1501,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "10:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -1510,8 +1510,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "10:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -1519,8 +1519,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -1528,8 +1528,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1546,8 +1546,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-18",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1618,8 +1618,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "10:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1636,8 +1636,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "10:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1672,8 +1672,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "10:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1690,8 +1690,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "10:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -1807,8 +1807,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-18",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1843,8 +1843,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -1861,8 +1861,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -1978,8 +1978,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1987,8 +1987,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -1996,8 +1996,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2023,8 +2023,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "11:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2050,8 +2050,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "11:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2068,8 +2068,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2077,8 +2077,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2086,8 +2086,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2122,8 +2122,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2131,8 +2131,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2149,8 +2149,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2248,8 +2248,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-18",
       "time": "11:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2266,8 +2266,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "11:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2356,8 +2356,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "12:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2374,8 +2374,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "12:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2401,8 +2401,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "12:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2464,8 +2464,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2473,8 +2473,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2482,8 +2482,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -2491,8 +2491,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-18",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2536,8 +2536,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "12:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2545,8 +2545,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "12:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2554,8 +2554,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "12:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2590,8 +2590,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "12:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -2599,8 +2599,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "12:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2644,8 +2644,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "12:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2671,8 +2671,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -2680,8 +2680,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2689,8 +2689,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2698,8 +2698,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2707,8 +2707,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2779,8 +2779,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "13:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2797,8 +2797,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "13:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2815,8 +2815,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "13:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2869,8 +2869,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "13:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2878,8 +2878,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "13:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -2923,8 +2923,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "13:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -2941,8 +2941,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2950,8 +2950,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -2959,8 +2959,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -2977,8 +2977,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3058,8 +3058,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "13:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3067,8 +3067,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "13:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -3076,8 +3076,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-18",
       "time": "13:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3112,8 +3112,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "13:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3130,8 +3130,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3139,8 +3139,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3148,8 +3148,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3157,8 +3157,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3184,8 +3184,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "14:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3238,8 +3238,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "14:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -3265,8 +3265,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "14:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3274,8 +3274,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "14:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3301,8 +3301,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3310,8 +3310,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3319,8 +3319,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3328,8 +3328,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3364,8 +3364,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-18",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3373,8 +3373,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3382,8 +3382,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3400,8 +3400,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "14:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3445,8 +3445,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-18",
       "time": "14:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261118/",
+      "version": "標準廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -3457,15 +3457,6 @@
       "version": "版本未標示",
       "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
       "auditorium": ""
-    },
-    {
-      "movieId": "a13cdb019227",
-      "cinemaId": "century-kaohsiung",
-      "date": "2026-11-18",
-      "time": "14:50",
-      "version": "數位",
-      "sourceUrl": "https://ticket.centuryasia.com.tw/kaohsiung/movie_timetable.aspx?ProgramID=0002038",
-      "auditorium": "四廳"
     },
     {
       "movieId": "a13cdb019227",
@@ -3490,8 +3481,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "14:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -3499,8 +3490,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "14:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3508,8 +3499,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "14:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3517,8 +3508,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "14:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3544,8 +3535,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3553,8 +3544,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3580,8 +3571,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -3643,8 +3634,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "15:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3670,8 +3661,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "15:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -3679,8 +3670,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "15:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3751,8 +3742,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "15:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3778,8 +3769,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-18",
       "time": "15:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -3814,8 +3805,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "15:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3823,8 +3814,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "15:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -3868,8 +3859,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-18",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3886,8 +3877,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-18",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -3895,8 +3886,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-18",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -3913,8 +3904,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "15:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3931,8 +3922,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3949,8 +3940,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -3958,8 +3949,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3967,8 +3958,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -3994,8 +3985,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "16:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4012,8 +4003,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "16:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4057,8 +4048,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "16:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4075,8 +4066,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "16:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4084,8 +4075,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "16:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4111,8 +4102,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "16:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4120,8 +4111,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "16:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4138,8 +4129,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4147,8 +4138,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4156,8 +4147,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-18",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4264,8 +4255,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4273,8 +4264,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4282,8 +4273,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4309,8 +4300,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "16:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4345,8 +4336,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4354,8 +4345,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4372,8 +4363,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -4426,8 +4417,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-18",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -4435,8 +4426,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -4444,8 +4435,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-18",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261118/",
+      "version": "標準廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -4453,8 +4444,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "17:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -4480,8 +4471,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "17:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4489,8 +4480,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-18",
       "time": "17:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -4516,8 +4507,8 @@
       "cinemaId": "ref-68",
       "date": "2026-11-18",
       "time": "17:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d06/a02/20261118/",
+      "version": "皇家廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -4525,8 +4516,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -4534,8 +4525,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4552,8 +4543,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4561,8 +4552,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4597,8 +4588,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "17:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4615,8 +4606,8 @@
       "cinemaId": "ref-45",
       "date": "2026-11-18",
       "time": "17:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b05/a02/",
+      "version": "數位版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1001",
       "auditorium": ""
     },
     {
@@ -4642,8 +4633,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "17:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4651,8 +4642,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "17:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -4660,8 +4651,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "17:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4696,8 +4687,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "17:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -4723,8 +4714,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4750,8 +4741,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4759,8 +4750,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-18",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -4777,8 +4768,8 @@
       "cinemaId": "ref-68",
       "date": "2026-11-18",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d06/a02/20261118/",
+      "version": "皇家廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -4795,8 +4786,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "18:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -4858,8 +4849,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "18:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4867,8 +4858,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4876,8 +4867,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4885,8 +4876,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -4894,8 +4885,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4921,8 +4912,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "18:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4948,8 +4939,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-18",
       "time": "18:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -4975,8 +4966,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "18:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5083,8 +5074,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "18:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5092,8 +5083,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "18:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5119,8 +5110,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "18:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5137,8 +5128,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "19:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5146,8 +5137,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-18",
       "time": "19:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5209,8 +5200,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "19:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5254,8 +5245,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "19:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5272,8 +5263,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "19:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5308,8 +5299,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-18",
       "time": "19:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -5326,8 +5317,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5335,8 +5326,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5344,8 +5335,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5353,8 +5344,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -5380,8 +5371,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5389,8 +5380,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5398,8 +5389,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5416,8 +5407,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5479,8 +5470,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-18",
       "time": "19:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5497,8 +5488,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "19:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5515,8 +5506,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "19:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5533,8 +5524,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "19:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5578,8 +5569,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "19:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5587,8 +5578,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "19:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5596,8 +5587,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "20:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5632,8 +5623,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "20:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5641,8 +5632,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "20:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5668,8 +5659,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "20:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5713,8 +5704,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "20:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5722,8 +5713,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "20:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5749,8 +5740,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "20:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -5794,8 +5785,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "20:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5812,8 +5803,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-18",
       "time": "20:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5848,8 +5839,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "20:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5857,8 +5848,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "20:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5956,8 +5947,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "21:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5974,8 +5965,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "21:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5983,8 +5974,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "21:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -5992,8 +5983,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-18",
       "time": "21:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -6001,8 +5992,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-18",
       "time": "21:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6028,8 +6019,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "21:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6046,8 +6037,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "21:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6055,8 +6046,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6064,8 +6055,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-18",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -6073,8 +6064,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-18",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6118,8 +6109,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-18",
       "time": "21:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261118/",
+      "version": "標準廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -6136,8 +6127,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-18",
       "time": "21:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -6145,8 +6136,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-18",
       "time": "21:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6154,8 +6145,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-18",
       "time": "21:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6172,8 +6163,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-18",
       "time": "21:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6181,8 +6172,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "21:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6190,8 +6181,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-18",
       "time": "22:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6208,8 +6199,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "22:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6244,8 +6235,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-18",
       "time": "22:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6289,8 +6280,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-18",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6298,8 +6289,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6307,8 +6298,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-18",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6316,8 +6307,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-18",
       "time": "22:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6325,8 +6316,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-18",
       "time": "22:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6361,8 +6352,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-18",
       "time": "23:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6370,8 +6361,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-18",
       "time": "23:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6388,8 +6379,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-18",
       "time": "23:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6397,8 +6388,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-18",
       "time": "23:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6433,8 +6424,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-18",
       "time": "23:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6442,8 +6433,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-18",
       "time": "23:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6451,8 +6442,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-18",
       "time": "23:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6469,8 +6460,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "09:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6514,8 +6505,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-19",
       "time": "10:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -6532,8 +6523,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "10:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6559,8 +6550,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "10:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6622,8 +6613,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6640,8 +6631,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -6649,8 +6640,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "10:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6676,8 +6667,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6685,8 +6676,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6703,8 +6694,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-19",
       "time": "10:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6775,8 +6766,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "10:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6793,8 +6784,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "10:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6829,8 +6820,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "10:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6847,8 +6838,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "10:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -6865,8 +6856,8 @@
       "cinemaId": "ref-68",
       "date": "2026-11-19",
       "time": "10:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d06/a02/20261119/",
+      "version": "皇家廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -6928,8 +6919,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-19",
       "time": "10:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261119/",
+      "version": "標準廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -6937,8 +6928,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-19",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6964,8 +6955,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -6982,8 +6973,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7000,8 +6991,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "11:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7099,8 +7090,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7108,8 +7099,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7117,8 +7108,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7126,8 +7117,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-19",
       "time": "11:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -7144,8 +7135,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "11:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7162,8 +7153,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-19",
       "time": "11:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -7180,8 +7171,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "11:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7198,8 +7189,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7207,8 +7198,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-19",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -7216,8 +7207,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "11:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -7234,8 +7225,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "11:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7243,8 +7234,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7252,8 +7243,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7270,8 +7261,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7279,8 +7270,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-19",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -7315,8 +7306,8 @@
       "cinemaId": "ref-68",
       "date": "2026-11-19",
       "time": "11:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d06/a02/20261119/",
+      "version": "皇家廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -7360,8 +7351,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-19",
       "time": "11:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7378,8 +7369,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "11:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7423,8 +7414,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "12:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -7450,8 +7441,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "12:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7477,8 +7468,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "12:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7486,8 +7477,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "12:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7513,8 +7504,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "12:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7576,8 +7567,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7585,8 +7576,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7594,8 +7585,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -7621,8 +7612,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-19",
       "time": "12:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7666,8 +7657,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "12:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7675,8 +7666,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "12:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7711,8 +7702,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "12:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7738,8 +7729,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "12:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -7756,8 +7747,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "12:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7765,8 +7756,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-19",
       "time": "12:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261119/",
+      "version": "標準廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -7792,8 +7783,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7801,8 +7792,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7810,8 +7801,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -7819,8 +7810,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7828,8 +7819,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7837,8 +7828,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7855,8 +7846,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-19",
       "time": "13:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -7918,8 +7909,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "13:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -7936,8 +7927,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "13:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -7972,8 +7963,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "13:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -7999,8 +7990,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "13:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -8062,8 +8053,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "13:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8080,8 +8071,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8098,8 +8089,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8107,8 +8098,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8116,8 +8107,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-19",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -8125,8 +8116,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-19",
       "time": "13:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -8188,8 +8179,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-19",
       "time": "13:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8224,8 +8215,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "13:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8251,8 +8242,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8260,8 +8251,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8269,8 +8260,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-19",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8278,8 +8269,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "14:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8305,8 +8296,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "14:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8341,8 +8332,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "14:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -8368,8 +8359,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "14:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8377,8 +8368,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "14:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8404,8 +8395,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8413,8 +8404,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8422,8 +8413,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8431,8 +8422,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "14:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8467,8 +8458,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-19",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8476,8 +8467,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8485,8 +8476,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "14:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8503,8 +8494,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "14:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8539,8 +8530,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-19",
       "time": "14:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261119/",
+      "version": "標準廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -8566,8 +8557,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "14:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -8575,8 +8566,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "14:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8584,8 +8575,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "14:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8593,8 +8584,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "14:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8620,8 +8611,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8629,8 +8620,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8638,8 +8629,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "15:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8737,8 +8728,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "15:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -8746,8 +8737,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "15:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8818,8 +8809,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "15:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8836,8 +8827,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-19",
       "time": "15:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -8854,8 +8845,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "15:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8899,8 +8890,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8908,8 +8899,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-19",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8926,8 +8917,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-19",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -8935,8 +8926,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-19",
       "time": "15:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -8944,8 +8935,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "15:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8962,8 +8953,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "15:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -8971,8 +8962,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -8989,8 +8980,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -8998,8 +8989,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-19",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9007,8 +8998,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9016,8 +9007,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "15:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9034,8 +9025,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "16:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9052,8 +9043,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "16:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9097,8 +9088,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "16:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9115,8 +9106,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-19",
       "time": "16:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9124,8 +9115,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "16:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9133,8 +9124,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "16:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9160,8 +9151,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "16:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9169,8 +9160,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "16:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9187,8 +9178,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9196,8 +9187,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9205,8 +9196,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-19",
       "time": "16:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9304,8 +9295,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9313,8 +9304,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9322,8 +9313,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "16:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9340,8 +9331,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "16:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9376,8 +9367,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9385,8 +9376,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9412,8 +9403,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "17:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -9466,8 +9457,8 @@
       "cinemaId": "ref-46",
       "date": "2026-11-19",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06607/a06/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002",
       "auditorium": ""
     },
     {
@@ -9475,8 +9466,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -9484,8 +9475,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-19",
       "time": "17:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261119/",
+      "version": "標準廳",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -9502,8 +9493,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "17:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -9520,8 +9511,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "17:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9529,8 +9520,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-19",
       "time": "17:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -9556,8 +9547,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9574,8 +9565,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9583,8 +9574,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "17:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9619,8 +9610,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "17:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9637,8 +9628,8 @@
       "cinemaId": "ref-45",
       "date": "2026-11-19",
       "time": "17:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b05/a02/20261119/",
+      "version": "數位版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1001",
       "auditorium": ""
     },
     {
@@ -9664,8 +9655,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "17:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9673,8 +9664,8 @@
       "cinemaId": "ref-3",
       "date": "2026-11-19",
       "time": "17:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a11/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9682,8 +9673,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "17:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9709,8 +9700,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "17:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -9736,8 +9727,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9763,8 +9754,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9772,8 +9763,8 @@
       "cinemaId": "ref-43",
       "date": "2026-11-19",
       "time": "18:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04401/a04/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1003",
       "auditorium": ""
     },
     {
@@ -9790,8 +9781,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "18:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9799,8 +9790,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "18:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -9817,8 +9808,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "18:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -9880,8 +9871,8 @@
       "cinemaId": "ref-68",
       "date": "2026-11-19",
       "time": "18:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d06/a02/20261119/",
+      "version": "皇家廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -9898,8 +9889,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "18:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9907,8 +9898,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9916,8 +9907,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -9925,8 +9916,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "18:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9961,8 +9952,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "18:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -9988,8 +9979,8 @@
       "cinemaId": "ref-1",
       "date": "2026-11-19",
       "time": "18:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04402/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10015,8 +10006,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "18:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10105,8 +10096,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "18:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10114,8 +10105,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "18:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10132,8 +10123,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "18:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10150,8 +10141,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "19:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10159,8 +10150,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "19:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10231,8 +10222,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "19:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10276,8 +10267,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "19:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10285,8 +10276,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "19:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -10294,8 +10285,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "19:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10321,8 +10312,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-19",
       "time": "19:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -10339,8 +10330,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10348,8 +10339,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10357,8 +10348,8 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10366,8 +10357,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "19:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -10393,8 +10384,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10402,8 +10393,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10411,8 +10402,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10429,8 +10420,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "19:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10492,8 +10483,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-19",
       "time": "19:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10528,8 +10519,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "19:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10546,8 +10537,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "19:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10564,8 +10555,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "19:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10573,8 +10564,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "19:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10582,8 +10573,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "20:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -10591,8 +10582,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "20:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10636,8 +10627,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "20:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10681,8 +10672,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "20:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10690,8 +10681,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "20:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10762,8 +10753,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "20:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10780,8 +10771,8 @@
       "cinemaId": "ref-40",
       "date": "2026-11-19",
       "time": "20:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03701/a37/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10816,8 +10807,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "20:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10825,8 +10816,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "20:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10879,8 +10870,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "21:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -10924,8 +10915,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "21:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10942,8 +10933,8 @@
       "cinemaId": "ref-24",
       "date": "2026-11-19",
       "time": "21:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a01/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9074",
       "auditorium": ""
     },
     {
@@ -10951,8 +10942,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "21:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10960,8 +10951,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "21:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -10969,8 +10960,8 @@
       "cinemaId": "ref-47",
       "date": "2026-11-19",
       "time": "21:15",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03315/a03/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1004",
       "auditorium": ""
     },
     {
@@ -10978,8 +10969,8 @@
       "cinemaId": "ref-20",
       "date": "2026-11-19",
       "time": "21:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e20/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11005,8 +10996,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "21:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11023,8 +11014,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "21:25",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11041,8 +11032,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11050,8 +11041,8 @@
       "cinemaId": "ref-31",
       "date": "2026-11-19",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e21/a02/20261119/",
+      "version": "數位 國語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9038",
       "auditorium": ""
     },
     {
@@ -11059,8 +11050,8 @@
       "cinemaId": "ref-37",
       "date": "2026-11-19",
       "time": "21:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03317/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11104,8 +11095,8 @@
       "cinemaId": "ref-69",
       "date": "2026-11-19",
       "time": "21:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03301/a03/20261119/",
+      "version": "標準廳 日文版",
+      "sourceUrl": "https://www.miranewcinemas.com/Booking/Timetable",
       "auditorium": ""
     },
     {
@@ -11113,8 +11104,8 @@
       "cinemaId": "ref-44",
       "date": "2026-11-19",
       "time": "21:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02d04/a02/20261119/",
+      "version": "日語版",
+      "sourceUrl": "https://www.skcinemas.com/Sessions/Sessions?cinemaId=1005",
       "auditorium": ""
     },
     {
@@ -11122,8 +11113,8 @@
       "cinemaId": "ref-21",
       "date": "2026-11-19",
       "time": "21:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04409/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11131,8 +11122,8 @@
       "cinemaId": "ref-27",
       "date": "2026-11-19",
       "time": "21:50",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06611/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11158,8 +11149,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "21:55",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -11176,8 +11167,8 @@
       "cinemaId": "ref-35",
       "date": "2026-11-19",
       "time": "22:05",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e07/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11194,8 +11185,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "22:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11248,8 +11239,8 @@
       "cinemaId": "ref-38",
       "date": "2026-11-19",
       "time": "22:20",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03308/a03/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -11293,8 +11284,8 @@
       "cinemaId": "ref-22",
       "date": "2026-11-19",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t04407/a04/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9033",
       "auditorium": ""
     },
     {
@@ -11302,8 +11293,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11311,8 +11302,8 @@
       "cinemaId": "ref-34",
       "date": "2026-11-19",
       "time": "22:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03508/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11320,8 +11311,8 @@
       "cinemaId": "ref-30",
       "date": "2026-11-19",
       "time": "22:35",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06609/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11329,8 +11320,8 @@
       "cinemaId": "ref-36",
       "date": "2026-11-19",
       "time": "22:40",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02e12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11365,8 +11356,8 @@
       "cinemaId": "ref-23",
       "date": "2026-11-19",
       "time": "23:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b14/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11374,8 +11365,8 @@
       "cinemaId": "ref-32",
       "date": "2026-11-19",
       "time": "23:00",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t03505/a35/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11401,8 +11392,8 @@
       "cinemaId": "ref-26",
       "date": "2026-11-19",
       "time": "23:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02b08/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11410,8 +11401,8 @@
       "cinemaId": "ref-28",
       "date": "2026-11-19",
       "time": "23:10",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t06610/a06/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11437,8 +11428,8 @@
       "cinemaId": "ref-25",
       "date": "2026-11-19",
       "time": "23:30",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t02a12/a02/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
       "auditorium": ""
     },
     {
@@ -11446,8 +11437,17 @@
       "cinemaId": "ref-41",
       "date": "2026-11-19",
       "time": "23:45",
-      "version": "版本未標示",
-      "sourceUrl": "https://www.atmovies.com.tw/showtime/t07703/a07/20261119/",
+      "version": "數位 日語版",
+      "sourceUrl": "https://www.vscinemas.com.tw/film/detail.aspx?id=9075",
+      "auditorium": ""
+    },
+    {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "10:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
       "auditorium": ""
     },
     {
@@ -11485,6 +11485,15 @@
       "version": "數位‧日文版",
       "sourceUrl": "https://www.ambassador.com.tw/home/MovieContent?MID=002f7187-9e8b-4986-9049-2ae9c7130d64&DT=2026/11/20",
       "auditorium": "1廳 58席"
+    },
+    {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "12:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
     },
     {
       "movieId": "72d592361eaf",
@@ -11530,6 +11539,15 @@
       "version": "數位‧日文版",
       "sourceUrl": "https://www.ambassador.com.tw/home/MovieContent?MID=510aba2d-5cab-4889-a16c-2a3636dc10eb&DT=2026/11/20",
       "auditorium": "8廳 149席"
+    },
+    {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "14:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
     },
     {
       "movieId": "2593b3f2238b",
@@ -11649,6 +11667,15 @@
       "auditorium": "7廳 106席"
     },
     {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "16:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
+    },
+    {
       "movieId": "2593b3f2238b",
       "cinemaId": "ref-11",
       "date": "2026-11-20",
@@ -11694,6 +11721,15 @@
       "auditorium": "6廳 181席"
     },
     {
+      "movieId": "4277808f752b",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "17:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_929",
+      "auditorium": ""
+    },
+    {
       "movieId": "2593b3f2238b",
       "cinemaId": "ref-14",
       "date": "2026-11-20",
@@ -11737,6 +11773,15 @@
       "version": "數位‧日文版",
       "sourceUrl": "https://www.ambassador.com.tw/home/MovieContent?MID=510aba2d-5cab-4889-a16c-2a3636dc10eb&DT=2026/11/20",
       "auditorium": "5廳 76席"
+    },
+    {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "18:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
     },
     {
       "movieId": "72d592361eaf",
@@ -11811,6 +11856,15 @@
       "auditorium": "5廳 76席"
     },
     {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "20:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
+    },
+    {
       "movieId": "2593b3f2238b",
       "cinemaId": "ref-11",
       "date": "2026-11-20",
@@ -11863,6 +11917,15 @@
       "version": "數位‧日文版",
       "sourceUrl": "https://www.ambassador.com.tw/home/MovieContent?MID=510aba2d-5cab-4889-a16c-2a3636dc10eb&DT=2026/11/20",
       "auditorium": "6廳 185席"
+    },
+    {
+      "movieId": "a13cdb019227",
+      "cinemaId": "ref-70",
+      "date": "2026-11-20",
+      "time": "22:00",
+      "version": "2D-日語",
+      "sourceUrl": "https://www.ccmovie.com.tw/product.php?_path=product_showtimes&all=1#m_927",
+      "auditorium": ""
     },
     {
       "movieId": "2593b3f2238b",

@@ -1,6 +1,6 @@
 # 映藍 ANIMOVIE
 
-查詢臺灣電影院正在上映與即將上映的動畫電影，從海報打開作品介紹，再依日期、時段、縣市、版本或品牌篩選放映場次。
+查詢臺灣電影院正在上映與即將上映的動畫電影，從海報打開作品介紹，再依日期、時段、縣市、放映規格或品牌篩選放映場次。
 
 **[開啟映藍網站](https://tachibakakeru.github.io/Animovieinfo-site/)**
 
@@ -10,6 +10,7 @@
 
 - 直接讀取 [國賓](https://www.ambassador.com.tw/)、[喜樂時代](https://ticket.centuryasia.com.tw/)、[秀泰影城](https://www.showtimes.com.tw/programs/) 與 [親親影城](https://www.ccmovie.com.tw/) 的公開片目及場次。
 - 新光、威秀及 MUVIE 的分店時刻取自 [開眼電影網](https://www.atmovies.com.tw/)。片單、場次及影城位置另參考 [動畫電影上映地圖](https://dandadany.github.io/anime_movie_screening/)。每筆場次附上可查閱的來源。
+- 放映規格按影片、分店、日期與時間核對 [新光影城官網](https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002) 與 [美麗新影城官網](https://www.miranewcinemas.com/Booking/Timetable)。威秀另按官網本期公布的單一版本與分店補充，例如 [名偵探柯南 第30號殺人事件](https://www.vscinemas.com.tw/film/detail.aspx?id=9075)。畫面保留來源公布的語言、數位或特殊廳標示。只有來源明確標出 2D 或 3D 才會加上對應標籤。
 - GitHub Actions 排定台北時間 01:37、07:37、13:37、19:37 擷取及部署。實際執行可能延後。頁尾顯示目前資料的擷取時間，更新失敗時保留前次部署。院線各自公布新場次，只有可核對日期的場次會列入。
 
 ## 本機執行

@@ -1,3 +1,30 @@
+html {
+  color-scheme: light;
+  --ground: #f7f9fc;
+  --surface: #fff;
+  --panel: #eff5fb;
+  --raised: #e8eff7;
+  --pale: #dcecff;
+  --line: #d4dfeb;
+  --ink: #142b48;
+  --muted: #526781;
+  --link: #245da2;
+  --map-water: #d9eaf0;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --ground: #0d1626;
+  --surface: #152238;
+  --panel: #101c30;
+  --raised: #23344e;
+  --pale: #294366;
+  --line: #30425e;
+  --ink: #edf4ff;
+  --muted: #afc1da;
+  --link: #9bc8fd;
+  --map-water: #25334d;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -7,8 +34,8 @@ html {
 }
 body {
   margin: 0;
-  background: #f7f9fc;
-  color: #142b48;
+  background: var(--ground);
+  color: var(--ink);
   font-family: "Inter", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
@@ -17,8 +44,8 @@ body {
   margin-inline: auto;
 }
 header {
-  background: white;
-  border-bottom: 1px solid #dde5ed;
+  background: var(--surface);
+  border-bottom: 1px solid var(--line);
 }
 .head,
 .identity,
@@ -32,7 +59,7 @@ nav {
 }
 .identity {
   gap: 10px;
-  color: #102d4c;
+  color: var(--ink);
   text-decoration: none;
 }
 .identity strong {
@@ -91,10 +118,10 @@ nav a {
   text-decoration: none;
   font-size: 14px;
   font-weight: bold;
-  color: #546780;
+  color: var(--muted);
 }
 nav a.active {
-  color: #205aba;
+  color: var(--link);
 }
 nav a.active:after {
   content: "";
@@ -169,7 +196,7 @@ select:focus-visible {
   gap: 9px;
   font: 700 10px/1.3 Arial;
   letter-spacing: 0.19em;
-  color: #426b9c;
+  color: var(--link);
   margin: 0;
 }
 .eyebrow i,
@@ -312,17 +339,17 @@ select:focus-visible {
   letter-spacing: 0.045em;
 }
 .mapLink {
-  color: #245da2;
+  color: var(--link);
   gap: 7px;
 }
 .tools {
   margin: 20px 0 0;
-  border-bottom: 1px solid #dbe4ed;
+  border-bottom: 1px solid var(--line);
   padding-bottom: 12px;
 }
 .tabs {
   display: flex;
-  background: #e8eef5;
+  background: var(--raised);
   padding: 4px;
   border-radius: 10px;
   gap: 2px;
@@ -331,7 +358,7 @@ select:focus-visible {
   background: transparent;
   border: 0;
   padding: 9px 14px;
-  color: #52657d;
+  color: var(--muted);
   font-weight: bold;
   font-size: 14px;
   border-radius: 7px;
@@ -346,8 +373,8 @@ select:focus-visible {
   display: inline-block;
   padding: 1px 6px;
   border-radius: 5px;
-  background: #ffffff91;
-  color: #506880;
+  background: var(--raised);
+  color: var(--muted);
   margin-left: 4px;
 }
 .selected b {
@@ -358,9 +385,9 @@ select:focus-visible {
   display: flex;
   align-items: center;
   gap: 8px;
-  border: 1px solid #d4dfeb;
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background: white;
+  background: var(--surface);
   padding: 8px 12px;
 }
 .search span {
@@ -377,7 +404,7 @@ select:focus-visible {
 }
 .meta {
   font-size: 12px;
-  color: #63758b;
+  color: var(--muted);
   margin: 13px 0;
 }
 .cards {
@@ -391,9 +418,9 @@ footer.wrap {
   gap: 12px;
   align-items: center;
   margin-top: 48px;
-  border-top: 1px solid #dbe4ed;
+  border-top: 1px solid var(--line);
   padding: 20px 0;
-  color: #63758b;
+  color: var(--muted);
   font-size: 12px;
 }
 footer small {
@@ -515,8 +542,46 @@ html[data-motion="reduced"] *::after {
 .motionChoice select {
   font: inherit;
   color: inherit;
-  border: 1px solid #c3d4e5;
+  border: 1px solid var(--line);
   border-radius: 5px;
   padding: 4px;
-  background: white;
+  background: var(--surface);
+}
+
+
+#themeToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  background: var(--raised);
+  color: var(--ink);
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+#themeToggle svg {
+  width: 16px;
+  height: 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+html:not([data-theme="dark"]) #themeToggle .sun,
+html[data-theme="dark"] #themeToggle .moon {
+  display: none;
+}
+@media (max-width: 560px) {
+  .head { gap: 6px; }
+  nav { gap: 9px; }
+  nav a { font-size: 12px; white-space: nowrap; }
+  .identity { gap: 5px; }
+  .identity strong { font-size: 20px; white-space: nowrap; }
+  .logo { width: 30px; height: 30px; }
+  .logo::before, .logo::after { left: 5px; }
+  #themeToggle { padding-inline: 6px; font-size: 12px; }
 }
