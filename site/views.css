@@ -1,0 +1,593 @@
+/* Movie cards and film details */
+.card {
+  display: flex;
+  flex-flow: column;
+  text-align: left;
+  background: #fff;
+  border: 1px solid #dce5ee;
+  border-radius: 13px;
+  padding: 0;
+  overflow: hidden;
+  color: inherit;
+  box-shadow: 0 3px 11px #254e7210;
+}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 9px 22px #183d6620;
+}
+.poster {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/2.82;
+  overflow: hidden;
+  background: #d1dfea;
+}
+.poster img,
+.detailPoster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.flag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  line-height: 1.5;
+  font-size: 11px;
+  font-weight: 700;
+  color: #fff;
+  background: #123a4cde;
+  border: 1px solid #ffffff42;
+  border-radius: 20px;
+  padding: 3px 8px;
+  backdrop-filter: blur(5px);
+}
+.flag i {
+  background: #61dfb2;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+.flag.upcoming i {
+  background: #a4cdff;
+}
+.cardInfo {
+  display: grid;
+  gap: 7px;
+  padding: 13px 14px 16px;
+}
+.cardInfo strong {
+  font-size: 16px;
+  line-height: 1.45;
+}
+.cardInfo small,
+.original {
+  color: #65788e;
+}
+.cardInfo small {
+  font-size: 12px;
+}
+.until {
+  color: #185c9c;
+  font-size: 12px;
+  font-weight: bold;
+  font-variant-numeric: tabular-nums;
+}
+.empty {
+  color: #63758b;
+  background: white;
+  padding: 26px;
+  border: 1px dashed #c6d5e4;
+  border-radius: 10px;
+  grid-column: 1/-1;
+  text-align: center;
+}
+.clockFace,
+.flipTop,
+.flipBottom {
+  position: absolute;
+  inset: 0 0 50%;
+  overflow: hidden;
+  backface-visibility: hidden;
+  transform-origin: bottom;
+
+  background: #294965;
+  border-radius: 4px 4px 0 0;
+}
+.flipTop {
+  z-index: 3;
+  animation: turnTop 0.3s cubic-bezier(0.42, 0, 0.9, 0.55) both;
+}
+.clockFace.lower,
+.flipBottom {
+  inset: 50% 0 0;
+  transform-origin: top;
+  background: #203a54;
+  border-radius: 0 0 4px 4px;
+}
+.flipBottom {
+  z-index: 4;
+  animation: turnBottom 0.34s 0.3s cubic-bezier(0.14, 0.66, 0.35, 1) both;
+}
+.digits b::after {
+  z-index: 5;
+  pointer-events: none;
+}
+.clockFace:before,
+.flipTop:before,
+.flipBottom:before {
+  content: attr(data-value);
+  position: absolute;
+  inset: 0 0 auto;
+  height: 200%;
+  display: grid;
+  place-items: center;
+}
+.clockFace.lower:before,
+.flipBottom:before {
+  inset: auto 0 0;
+}
+@keyframes turnTop {
+  to {
+    transform: rotateX(-90deg);
+    filter: brightness(0.46);
+  }
+}
+@keyframes turnBottom {
+  from {
+    transform: rotateX(90deg);
+    filter: brightness(0.5);
+  }
+  to {
+    transform: rotateX(0);
+  }
+}
+@keyframes arrive {
+  from {
+    opacity: 0.55;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+dialog[open] {
+  animation: arrive 0.22s ease-out;
+}
+dialog {
+  border: 0;
+  border-radius: 16px;
+  padding: 0;
+  max-width: min(810px, 94vw);
+  max-height: 88vh;
+  color: inherit;
+  box-shadow: 0 25px 80px #071b3c4d;
+}
+dialog::backdrop {
+  background: #0b233bc7;
+  backdrop-filter: blur(3px);
+}
+body:has(dialog[open]) {
+  overflow: hidden;
+}
+.close {
+  position: absolute;
+  z-index: 1;
+  top: 9px;
+  right: 9px;
+  border: 1px solid #cddae7;
+  background: #fffffff0;
+  color: #163450;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 1;
+}
+.detailGrid {
+  display: grid;
+  grid-template-columns: 0.8fr 1.25fr;
+}
+.detailPoster {
+  background: #1b334b;
+}
+.detailPoster img {
+  height: 100%;
+  object-fit: contain;
+}
+.detailGrid article {
+  padding: 38px 28px 25px;
+}
+.detailGrid h2 {
+  font-size: 28px;
+  line-height: 1.35;
+  margin: 10px 0 0;
+}
+.original {
+  font-size: 13px;
+  margin: 4px 0;
+}
+.tags {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.tags span {
+  background: #e7eff9;
+  border-radius: 5px;
+  padding: 3px 7px;
+  color: #31577e;
+  font-size: 12px;
+}
+dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 8px 15px;
+  font-size: 13px;
+}
+dt,
+.detailGrid article > small {
+  color: #667b8e;
+}
+dd {
+  margin: 0;
+}
+.synopsis {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.detailLinks {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.detailLinks a {
+  font-size: 13px;
+  color: #245b9c;
+}
+a.primary {
+  padding: 9px 12px;
+  background: #235dae;
+  color: white;
+  border-radius: 7px;
+  text-decoration: none;
+}
+#nextShow {
+  font-size: 13px;
+  color: #4e657d;
+}
+.mapHeading {
+  margin: 27px 0 20px;
+}
+.mapShell {
+  display: grid;
+  grid-template-columns: minmax(210px, 23%) minmax(230px, 26%) minmax(0, 1fr);
+  height: clamp(560px, 72vh, 850px);
+  border: 1px solid #d4e0ea;
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 4px 15px #153b5911;
+}
+.filterPane,
+.theaters {
+  overflow: auto;
+  padding: 16px;
+  border-right: 1px solid #d7e3ed;
+}
+.filterPane {
+  background: #eff5fb;
+}
+.paneHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+.paneHead h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.paneHead button,
+#fit {
+  background: white;
+  border: 1px solid #d0ddea;
+  border-radius: 6px;
+  color: #235da3;
+  padding: 5px 9px;
+  font-size: 12px;
+}
+.paneHead small,
+.chips small {
+  color: #5c7590;
+  font-size: 11px;
+}
+.field,
+legend {
+  font-size: 13px;
+  font-weight: 700;
+}
+.filterPane fieldset {
+  border: 0;
+  margin: 0 0 17px;
+  padding: 0;
+  min-width: 0;
+}
+.filterPane legend {
+  width: 100%;
+  padding: 0;
+  margin: 0 0 7px;
+}
+.filterPane output {
+  float: right;
+  color: #265b94;
+  font-size: 12px;
+}
+.field {
+  display: block;
+  margin-bottom: 17px;
+}
+.field select {
+  margin-top: 6px;
+  width: 100%;
+  font-size: 13px;
+  padding: 8px 5px;
+  background: white;
+  border: 1px solid #c3d4e5;
+  border-radius: 6px;
+  color: #173451;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.chips button {
+  background: white;
+  color: #314b65;
+  border: 1px solid #d0deeb;
+  border-radius: 7px;
+  font-size: 12px;
+  padding: 5px 8px;
+}
+.chips .chosen {
+  background: #215ca6;
+  border-color: #215ca6;
+  color: white;
+}
+.chosen small {
+  color: #dbeafd;
+}
+.chips small {
+  font-variant-numeric: tabular-nums;
+}
+.filterPane input[type="range"] {
+  width: 100%;
+  accent-color: #2865ac;
+}
+.venue {
+  padding: 11px 0 13px;
+  border-top: 1px solid #e2e9f0;
+}
+.venue.focused {
+  background: #edf5ff;
+}
+.venueName {
+  border: 0;
+  background: transparent;
+  text-align: left;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #193652;
+}
+.venueName:hover {
+  color: #2363b1;
+}
+.venueName small {
+  color: #48759f;
+  background: #e7f0f8;
+  border-radius: 4px;
+  padding: 2px 4px;
+  font-size: 10px;
+  white-space: nowrap;
+}
+.times {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 8px;
+}
+.showTime {
+  display: grid;
+  background: #eff4f9;
+  text-decoration: none;
+  color: #214e7b;
+  border: 1px solid #e0e9f1;
+  border-radius: 5px;
+  max-width: 110px;
+  padding: 4px 6px;
+}
+.showTime b {
+  font:
+    700 13px ui-monospace,
+    Consolas,
+    monospace;
+}
+.showTime small {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+}
+.showTime:hover {
+  background: #cfe4fa;
+}
+.showTime.elapsed {
+  color: #627385;
+  background: #f5f6f7;
+}
+.mapBox {
+  position: relative;
+  background: #dfedf2;
+}
+.mapSearch {
+  position: absolute;
+  z-index: 700;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(64%, 300px);
+  box-shadow: 0 3px 12px #264e7422;
+}
+.mapSearch input {
+  width: 100%;
+  min-width: 0;
+}
+#tiles {
+  height: 100%;
+  width: 100%;
+  background: #d9eaf0;
+}
+#fit {
+  position: absolute;
+  z-index: 700;
+  bottom: 22px;
+  left: 10px;
+  box-shadow: 0 2px 8px #244a6d25;
+}
+.venuePin span {
+  height: 29px;
+  width: 29px;
+  border-radius: 50% 50% 50% 4px;
+  display: grid;
+  place-items: center;
+  background: #195dab;
+  border: 2px solid white;
+  color: white;
+  font: 700 13px Arial;
+  box-shadow: 0 2px 7px #112e6266;
+}
+.mapNotice {
+  position: absolute;
+  bottom: 45px;
+  left: 12px;
+  right: 12px;
+  z-index: 700;
+  background: #fff;
+  padding: 8px;
+  font-size: 12px;
+}
+.mapNote {
+  color: #62758b;
+  font-size: 12px;
+}
+.leaflet-container {
+  font-family: inherit;
+}
+@media (max-width: 900px) {
+  .mapShell {
+    height: auto;
+    grid-template-columns: 40% 60%;
+  }
+  .filterPane {
+    grid-column: 1/-1;
+    max-height: 280px;
+    border-bottom: 1px solid #d5e2ec;
+  }
+  .theaters,
+  .mapBox {
+    height: 440px;
+  }
+}
+@media (max-width: 560px) {
+  .cardInfo {
+    padding: 10px;
+  }
+  .cardInfo strong {
+    font-size: 14px;
+  }
+  .detailGrid {
+    display: block;
+  }
+  .detailPoster {
+    height: 180px;
+    padding: 8px;
+  }
+  .detailGrid article {
+    padding: 20px;
+  }
+  .mapShell {
+    display: flex;
+    flex-direction: column;
+  }
+  .filterPane {
+    max-height: 340px;
+  }
+  .mapBox {
+    height: 340px;
+    order: 1;
+  }
+  .theaters {
+    height: auto;
+    max-height: 360px;
+    order: 2;
+  }
+  .mapHeading {
+    align-items: end;
+  }
+  .mapHeading .mapLink {
+    font-size: 12px;
+  }
+  .mapHeading h1 {
+    font-size: 25px !important;
+  }
+  .times .showTime {
+    max-width: 140px;
+  }
+}
+
+.liveToggle {
+  border: 1px solid #c7d6e5;
+  color: #255d96;
+  background: white;
+  padding: 4px 8px;
+  font-size: 12px;
+  border-radius: 6px;
+}
+.liveToggle[aria-pressed="true"] {
+  background: #215ca6;
+  color: white;
+}
+
+.sources {
+  max-width: 420px;
+}
+.sources summary,
+.still summary {
+  cursor: pointer;
+  color: #285c91;
+}
+.sources p {
+  line-height: 1.7;
+}
+.still {
+  margin-top: 15px;
+  font-size: 13px;
+}
+.still img {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  border-radius: 6px;
+}
+.still a {
+  color: #285c91;
+}

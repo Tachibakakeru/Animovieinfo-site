@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#103f75" />
+    <title>映藍 ANIMOVIE｜台灣動畫上映情報</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='12' fill='%231550af'/%3E%3Cpath d='m17 11 20 13-20 13z' fill='white'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./vendor/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./views.css" />
+  </head>
+  <body>
+    <header>
+      <div class="head wrap">
+        <a class="identity" href="#films" aria-label="映藍首頁"
+          ><span class="logo" aria-hidden="true">▶</span><strong>映藍</strong
+          ><i></i><b>ANIMOVIE</b></a
+        >
+        <nav aria-label="主選單">
+          <a href="#films" id="filmsNav" class="active">電影總覽</a
+          ><a href="#map" id="mapNav">場次地圖</a>
+        </nav>
+      </div>
+    </header>
+    <main class="wrap" id="films">
+      <section class="hero" aria-label="台灣動畫上映情報">
+        <div class="heroCopy">
+          <p class="eyebrow heroTag"><i></i> TAIWAN ANIMATION GUIDE</p>
+          <h1>台灣動畫<span>上映情報</span></h1>
+          <p class="intro">
+            從上映日到下一場放映，找到你想在大銀幕相遇的動畫。
+          </p>
+          <a class="cta" href="#collection">探索電影片單 <span>↓</span></a>
+        </div>
+        <div class="clock">
+          <div class="clockLabel"><i></i> TAIPEI TIME <small>UTC+8</small></div>
+          <div class="digits" aria-hidden="true">
+            <b>--</b><em>:</em><b>--</b><em>:</em><b>--</b>
+          </div>
+          <div id="dateLine">台北時間</div>
+          <time class="sr" id="fullTime"></time>
+        </div>
+      </section>
+      <section id="collection">
+        <div class="sectionHeading">
+          <div>
+            <p class="eyebrow"><i></i> FILM INDEX</p>
+            <h2>電影片單</h2>
+          </div>
+          <a href="#map" class="mapLink">場次地圖 <span>↗</span></a>
+        </div>
+        <div class="tools">
+          <div class="tabs" aria-label="上映狀態">
+            <button class="selected" id="nowTab" aria-pressed="true">
+              正在上映 <b id="nowN">–</b></button
+            ><button id="upTab" aria-pressed="false">
+              即將上映 <b id="upN">–</b>
+            </button>
+          </div>
+          <label class="search"
+            ><span aria-hidden="true">⌕</span
+            ><input
+              id="filmSearch"
+              type="search"
+              placeholder="搜尋電影名稱"
+              aria-label="搜尋電影名稱"
+          /></label>
+        </div>
+        <p class="meta" id="filmMeta" role="status">正在整理公開片單…</p>
+        <div class="cards" id="cards"></div>
+      </section>
+    </main>
+    <main id="mapPage" class="wrap" hidden></main>
+    <footer class="wrap">
+      <strong>映藍 <small>ANIMOVIE</small></strong>
+      <details class="sources">
+        <summary>資料來源與版權</summary>
+        <p id="sourceText"></p>
+        <p>海報與劇照由來源網站提供，著作權歸各片權利人。電影詳情附影像出處。地圖資料 © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap 貢獻者</a>，地圖元件使用 <a href="./vendor/leaflet/LICENSE.txt">Leaflet（BSD-2-Clause）</a>。</p>
+      </details>
+      <label class="motionChoice"
+        >動態效果
+        <select id="motionChoice">
+          <option value="system">跟隨系統</option>
+          <option value="full">完整動畫</option>
+          <option value="reduced">減少動畫</option>
+        </select></label
+      >
+      <span id="dataStamp"></span>
+    </footer>
+    <dialog id="detail">
+      <button class="close" aria-label="關閉電影詳情">×</button>
+      <div id="detailBody"></div>
+    </dialog>
+    <script defer src="./vendor/leaflet/leaflet.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
