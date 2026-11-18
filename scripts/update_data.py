@@ -51,16 +51,16 @@ def web_url(url):
     return url if url and urlsplit(url).scheme in ("http", "https") else ""
 
 
-def request(url):
+def request(url, *, timeout=25, attempts=3):
     parts = urlsplit(url)
     uri = urlunsplit(parts._replace(path=quote(parts.path, safe="/%:@+")))
     req = Request(uri, headers={"User-Agent": "Animovieinfo/1.0 (public cinema listings)"})
-    for attempt in range(3):
+    for attempt in range(attempts):
         try:
-            with urlopen(req, timeout=25) as response:
+            with urlopen(req, timeout=timeout) as response:
                 return response.read()
         except OSError as exc:
-            if attempt == 2 or (isinstance(exc, HTTPError) and exc.code not in (408, 502, 503, 504)):
+            if attempt == attempts - 1 or (isinstance(exc, HTTPError) and exc.code not in (408, 502, 503, 504)):
                 raise
             time.sleep(2 ** attempt)
 
@@ -427,6 +427,17 @@ def atmovies_chains(master):
         raise ValueError(f"Missing dated AtMovies schedules for { {'新光影城', '威秀影城'} - checked }")
 
 
+def previous_official_sessions(url):
+    try:
+        previous = json.loads((SITE / "data.json").read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        return
+    titles = {m["id"]: m["title"] for m in previous["movies"]}
+    for row in previous["sessions"]:
+        if row["sourceUrl"] == url and row["date"] >= TODAY and row["cinemaId"] in cinemas:
+            yield titles[row["movieId"]], row["cinemaId"], row["date"], row["time"], row["version"], url
+
+
 def shin_kong_sessions():
     branches = {
         "新光影城台北獅子林": 1001, "新光影城台南西門": 1002, "新光影城台中中港": 1003,
@@ -441,9 +452,10 @@ def shin_kong_sessions():
             continue
         url = f"https://www.skcinemas.com/Sessions/Sessions?cinemaId={code}"
         try:
-            page = soup(url)
+            page = BeautifulSoup(request(url, timeout=10, attempts=1), "html.parser", from_encoding="utf-8")
         except OSError as exc:
-            print(f"Shin Kong labels unavailable at {url}: {exc}", file=sys.stderr)
+            print(f"Shin Kong schedule unavailable at {url}: {exc}", file=sys.stderr)
+            yield from previous_official_sessions(url)
             continue
         for film in page.select(".pt-5.pb-3:has(button[data-sessionid])"):
             title = film.select_one("h3")
@@ -463,13 +475,14 @@ def shin_kong_sessions():
 def miranew_sessions():
     url = "https://www.miranewcinemas.com/Booking/Timetable"
     try:
-        page = request(url).decode("utf-8")
+        page = request(url, timeout=10, attempts=1).decode("utf-8")
         raw = re.search(r"var CinemaList = '(.*)';", page)
         if not raw:
             return
         groups = json.loads(raw[1].replace(r'\"', '"').replace(r"\'", "'"))["Data"]["CinemaGroup"]
     except (OSError, ValueError, KeyError) as exc:
-        print(f"Miranew labels unavailable: {exc}", file=sys.stderr)
+        print(f"Miranew schedule unavailable: {exc}", file=sys.stderr)
+        yield from previous_official_sessions(url)
         return
     branches = {key(c["name"]): cid for cid, c in cinemas.items() if c["brand"] == "美麗新影城"}
     for cinema in groups:
