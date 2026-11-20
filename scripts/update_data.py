@@ -60,7 +60,7 @@ def request(url, *, timeout=25, attempts=3):
             with urlopen(req, timeout=timeout) as response:
                 return response.read()
         except OSError as exc:
-            if attempt == attempts - 1 or (isinstance(exc, HTTPError) and exc.code not in (408, 502, 503, 504)):
+            if attempt == attempts - 1 or (isinstance(exc, HTTPError) and exc.code not in (408, 500, 502, 503, 504)):
                 raise
             time.sleep(2 ** attempt)
 
@@ -390,7 +390,13 @@ def atmovies_chains(master):
                 if TODAY < day <= latest:
                     dates[day] = urljoin(base, link["href"])
         pages = [(TODAY, base, current)]
-        pages.extend((day, url, soup(url)) for day, url in sorted(dates.items()))
+        for day, url in sorted(dates.items()):
+            try:
+                page = soup(url)
+            except OSError as exc:
+                print(f"AtMovies dated schedule unavailable at {url}: {exc}", file=sys.stderr)
+                continue
+            pages.append((day, url, page))
         return place, pages
     checked = set()
     with ThreadPoolExecutor(max_workers=2) as pool:
