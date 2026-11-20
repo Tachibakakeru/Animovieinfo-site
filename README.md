@@ -12,7 +12,7 @@
 - 新光與美麗新依影片、分店、日期與開演時間匯入官方公開場次及版本。僅保留已確認為動畫的作品。 [新光影城官網](https://www.skcinemas.com/Sessions/Sessions?cinemaId=1002) · [美麗新影城官網](https://www.miranewcinemas.com/Booking/Timetable)
 - 威秀、MUVIE 和新光的補充場次取自開眼所列的分店與日期。威秀 2026/11/20–24 另補本期從官網確認的三家柯南場次。每筆場次附來源，規格尚待確認時會標示「規格待核對」。 [開眼電影網](https://www.atmovies.com.tw/showtime/) · [威秀官方電影頁](https://www.vscinemas.com.tw/VsWeb/film/detail.aspx?id=9075)
 - 片單、部分場次及影城位置參考原始專案。 [動畫電影上映地圖](https://dandadany.github.io/anime_movie_screening/)
-- GitHub Actions 每三小時的第 17 分排定擷取及部署。實際執行可能延後。首頁和場次地圖都顯示資料擷取時間，更新失敗時保留前次部署。
+- GitHub Actions 排定每三小時擷取及部署（台北時間 01:59、04:59、07:59、10:59、13:59、16:59、19:59、22:59）。實際執行可能延後。首頁和場次地圖都顯示資料擷取時間，更新失敗時保留前次部署。
 
 ## 本機執行
 
